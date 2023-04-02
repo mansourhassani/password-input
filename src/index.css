@@ -44,3 +44,8 @@ body {
 .input-fields span{
   cursor: pointer;
 }
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
