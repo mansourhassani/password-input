@@ -1,9 +1,13 @@
-import { Gi3DGlasses } from "react-icons/gi";
+import { FaEye } from "react-icons/fa";
 function App() {
   return (
-    <div>
-      <button className="btn btn-success">Test</button>
-      <Gi3DGlasses />
+    <div className="wrapper">
+      <div className="input-fields">
+        <span>
+          <FaEye />
+        </span>
+        <input type="password" className="password" />
+      </div>
     </div>
   );
 }
